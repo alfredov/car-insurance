@@ -5,7 +5,7 @@
   "author": "Alfredo V. <alfredo.villagomez.m@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "babel-node src/index.ts --extensions \".ts\"",
+    "after-30-days": "babel-node src/index.ts --extensions \".ts\"",
     "test": "jest --config ./jest.config.json"
   },
   "dependencies": {},
