@@ -1,0 +1,20 @@
+{
+  "name": "car-insurance",
+  "version": "1.0.0",
+  "repository": "https://github.com/alfredov/car-insurance.git",
+  "author": "Alfredo V. <alfredo.villagomez.m@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node src/index.ts --extensions \".ts\"",
+    "test": "jest --config ./jest.config.json"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-typescript": "^7.10.1",
+    "@types/jest": "^25.2.3",
+    "jest": "^26.0.1"
+  }
+}
