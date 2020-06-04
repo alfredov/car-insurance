@@ -25,7 +25,7 @@ Due the code challenge, I implemented several price rules template as well. To p
   you can check it [here](./src/models/Product/rulesTemplate/index.ts)
 
 ## How to isntall/run
-1) Adding dependencies
+__1)__ Install dependencies
 ```bash
 yarn
 ```
@@ -34,13 +34,12 @@ or
 npm install
 ```
 
-2) To generate the Price Log/history
+__2)__ To generate the Price Log/history
 ```bash
 npm run after-30-days
 ```
 
-3)
-Tests.
+__3)__ Tests.
 ```bash
 npm run test
 ```
